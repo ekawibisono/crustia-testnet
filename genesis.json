@@ -1,6 +1,6 @@
 {
   "config": {
-    "chainId": 25647,
+    "chainId": 61254,
     "homesteadBlock": 0,
     "eip150Block": 0,
     "eip155Block": 0,
@@ -14,8 +14,8 @@
     "mergeNetsplitBlock": 0,
     "terminalTotalDifficulty": 0,
     "terminalTotalDifficultyPassed": true,
-    "shanghaiTime": 1712383999,
-    "cancunTime": 1718783999
+    "shanghaiTime": 1724073168,
+    "cancunTime": 1731753168
   },
   "alloc": {
     "0x0000000000000000000000000000000000000000": {
@@ -49,6 +49,9 @@
       "balance": "1"
     },
     "0x000000000000000000000000000000000000000a": {
+      "balance": "1"
+    },
+    "0x000000000000000000000000000000000000000b": {
       "balance": "1"
     },
     "0x000000000000000000000000000000000000000c": {
@@ -820,6 +823,11 @@
         "0x0000000000000000000000000000000000000000000000000000000000000040": "0x985e929f70af28d0bdd1a90a808f977f597c7c778c489e98d3bd8910d31ac0f7"
       }
     },
+    "0x000F3df6D732807Ef1319fB7B8bB8522d0Beac02": {
+      "balance": "0",
+      "nonce": "1",
+      "code": "0x3373fffffffffffffffffffffffffffffffffffffffe14604d57602036146024575f5ffd5b5f35801560495762001fff810690815414603c575f5ffd5b62001fff01545f5260205ff35b5f5ffd5b62001fff42064281555f359062001fff015500"
+    },
     "0x4E6210e5544c20902122D9cD3b6b5702a63d3103": {
       "balance": "1000000000000000000000000000"
     },
@@ -887,9 +895,9 @@
   "coinbase": "0x0000000000000000000000000000000000000000",
   "difficulty": "0x01",
   "extraData": "",
-  "gasLimit": "0x17D7840",
+  "gasLimit": "0x17d7840",
   "nonce": "0x1234",
   "mixhash": "0x0000000000000000000000000000000000000000000000000000000000000000",
   "parentHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
-  "timestamp": "1712383939"
+  "timestamp": "1724073108"
 }
